@@ -3,6 +3,9 @@
 	"description": "A Last.fm API client library wrapper with a simple and clean interface.",
 	"version": "0.1.1",
 	"homepage": "https://github.com/maxkueng/node-lastfmapi",
+	"scripts": {
+		"test": "nyc mocha"
+	},
 	"author": {
 		"name": "Max Kueng",
 		"email": "me@maxkueng.com",
@@ -47,6 +50,7 @@
 	],
 	"devDependencies": {
 		"eslint": "^4.8.0",
-		"mocha": "^4.0.1"
+		"mocha": "^4.0.1",
+		"nyc": "^11.2.1"
 	}
 }
